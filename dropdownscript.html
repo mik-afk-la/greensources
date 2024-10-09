@@ -1,0 +1,56 @@
+<head>
+    <!-- Specifies the character encoding for the HTML document -->
+    <meta charset="UTF-8">
+    <!-- Sets the viewport to make the website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the title of the webpage -->
+  
+        /* Styles for elements with the class dropdown */
+        .dropdown {
+            background-color: #a5d6a7; /* Sets the background color */
+            margin: 2.5em 0; /* Adds margin */
+            padding: 1em; /* Adds padding */
+            border-radius: 25px; /* Rounds the corners */
+            cursor: pointer; /* Changes cursor to pointer */
+        }
+        /* Styles for elements with the class dropdown-content */
+        .dropdown-content {
+            display: none; /* Hides the content by default */
+            list-style-type: none; /* Removes bullet points */
+            padding: 0; /* Removes default padding */
+        }
+        /* Styles for li elements inside dropdown-content */
+        .dropdown-content li {
+            background-color: #c8e6c9; /* Sets the background color */
+            margin: 1em 0; /* Adds margin */
+            padding: 0em; /* Removes padding */
+            border-radius: 25px; /* Rounds the corners */
+        }
+        /* Styles for active dropdown elements */
+        .dropdown.active .dropdown-content {
+            display: block; /* Shows the content when active */
+        }
+      
+    </style>
+    <script>
+        /* Function to toggle the dropdown menu */
+        function toggleDropdown() {
+            var dropdown = document.querySelector('.dropdown');
+            dropdown.classList.toggle('active'); /* Toggles the active class */
+        }
+    </script>
+</head>
+<body>
+            <!-- Dropdown menu for presentation resources -->
+        <ul>
+            <li class="dropdown" onclick="toggleDropdown()" > 
+                <h2>Presentation Resources </h2> <!-- Subheading of the page -->
+                <ul class="dropdown-content">
+                    <li><a href="https://eco-cycleco.recycle.game/en-US" target="_blank">Recycling Sorting Game</a></li>
+                    <li><a href="https://recyclingpartnership.org/residential-recycling-report/" target="_blank">2024 State of Recycling Report</a></li>
+               
+            </li>
+        </ul>
+    </main>
+   <footer>Made with love <3 </footer>
+</body>
