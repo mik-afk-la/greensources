@@ -44,34 +44,7 @@
             background-color: #66bb6a;
             color: white;
         }
-        .dropdown {
-            background-color: #a5d6a7;
-            margin: 2.5em 0;
-            padding: 1em;
-            border-radius: 25px;
-            cursor: pointer;
-        }
-        .dropdown-content {
-            display: none;
-            list-style-type: none;
-            padding: 0;
-        }
-        .dropdown-content li {
-            background-color: #c8e6c9;
-            margin: 1em 0;
-            padding: 0em;
-            border-radius: 25px;
-        }
-        .dropdown.active .dropdown-content {
-            display: block;
-        }
-    </style>
-    <script>
-        function toggleDropdown() {
-            var dropdown = document.querySelector('.dropdown');
-            dropdown.classList.toggle('active');
-        }
-    </script>
+       
 </head>
 <body>
     <header>
@@ -84,12 +57,9 @@
                     <li><a href="https://ecocycle.org/guides-and-resources/popular-tools/eco-cycle-guide/" target="_blank">ECO-CYCLE PDF Guide</a></li>
                     <li><a href="https://valenciacollege.edu/about/sustainability/" target="_blank">Sustainability | Valencia College</a></li>
                     <li><a href="https://ocrecycleguide.com/" target="_blank">Orange County Recycle Guide</a></li></li>
-            <li class="dropdown" onclick="toggleDropdown()">
-                Presentation Resources
-                <ul class="dropdown-content">
-                    
-                    <li><a href="https://eco-cycleco.recycle.game/en-US" target="_blank">Recycling Sorting Game</a></li>
                     <li><a href="https://recyclingpartnership.org/residential-recycling-report/" target="_blank">2024 State of Recycling Report</a></li>
+                    <li><a href="https://eco-cycleco.recycle.game/en-US" target="_blank">Recycling Sorting Game</a></li>
+                    
                 </ul>
             </li>
         </ul>
