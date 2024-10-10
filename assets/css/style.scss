@@ -1,7 +1,7 @@
 <body>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
 <style>
-        body {
+       body {
             font-family: 'Fredoka', sans-serif;
             background-color: #e8f5e9;
             color: #1b5e20;
@@ -16,7 +16,7 @@
             text-align: center;
         }
         main {
-            padding: 2em;
+            padding: 0.5em;
             font-family: 'Fredoka', sans-serif;
         }
         h1 {
@@ -24,12 +24,12 @@
         }
         ul {
             list-style-type: none;
-            padding: 0;
+            padding: 1;
         }
         li {
             background-color: #a5d6a7;
-            font-size: large;
-            margin: 2em 0;
+            font-size: x-large;
+            margin: 0.5em 15%;
             border-radius: 25px;
             text-align: center;
         }
